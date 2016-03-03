@@ -1,0 +1,14 @@
+<suite name="Tests"
+       parallel="classes"
+       thread-count="1"
+       preserve-order="true"
+       object-factory="org.powermock.modules.testng.PowerMockObjectFactory" verbose="10"
+>
+    <test name="tests">
+        <classes>
+            <class name="Test1" />
+            <class name="Test2" />
+        </classes>
+    </test>
+
+</suite>
